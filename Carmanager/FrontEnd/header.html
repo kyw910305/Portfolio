@@ -7,186 +7,25 @@
     <title>Document</title>
     
     <!-- JQuery -->
-    <link rel="stylesheet" href="resources/common/jquery-3.6.0.min.js" >
+    <script src="resources/common/jquery-3.6.0.min.js"></script>
+    <script src="resources/common/jquery-ui.js"></script>
     <!-- JQueryUI -->
     <link rel="stylesheet" href="resources/common/jquery-ui.js">
     <link rel="stylesheet" href="resources/css/jquery-ui.css">
     <link rel="stylesheet" href="resources/css/jquery-ui.theme.css">
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="resources/css/common.css">
+    <link rel="stylesheet" href="resources/css/header.css">
+
+    <!-- JS -->
+    <script src="resources/js/header.js"></script>
     <style>
-        /* Style The Dropdown Button */
-        .dropbtn {
-        background-color: #4CAF50;
-        color: white;
-        padding: 16px;
-        font-size: 16px;
-        border: none;
-        cursor: pointer;
-        }
-
-        /* The container <div> - needed to position the dropdown content */
-        .dropdown {
-        position: relative;
-        display: inline-block;
-        }
-
-        /* Dropdown Content (Hidden by Default) */
-        .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-        }
-
-        /* Links inside the dropdown */
-        .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        }
-
-        /* Change color of dropdown links on hover */
-        .dropdown-content a:hover {background-color: #f1f1f1}
-
-        /* Show the dropdown menu on hover */
-        .dropdown:hover .dropdown-content {
-        display: block;
-        }
-
-        /* Change the background color of the dropdown button when the dropdown content is shown */
-        .dropdown:hover .dropbtn {
-        background-color: #3e8e41;
-        }
-        
-        body, div {
-            padding: 0px;
-            margin: 0px;
-        }
-
-        div {
-            display: block;
-        }
-
-        ul, ol {
-            list-style: none;
-        }
-
-        ul {
-            display: block;
-            margin-block-start: 1em;
-            margin-block-end: 1em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
-            padding-inline-start: 40px;
-        }
-
-        li {
-            display: list-item;
-            text-align: -webkit-match-parent;
-        }
-
-        * {
-            padding: 0px;
-            margin: 0px;
-        }
-        
-        a:link {
-            color: black;
-        }
-
-        a {
-            text-decoration: none;
-        }
-        
-        a:-webkit-any-link {
-            cursor: pointer;
-        }
-        
-        h1, h2, h3, h4, h5, h6 {
-            font-family: NanumGothic;
-        }
-        
-        h1 {
-            display: block;
-            font-size: 2em;
-            margin-block-start: 1em;
-            margin-block-end: 1em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
-            font-weight: bold;
-        }
-        
-        img {
-            border: 0px
-        }
-
-        .header {
-            position: relative;
-            height: 100px;
-            border-bottom: grey;
-        }
-        
-        .gnbBox {
-            position: relative;
-            width: 1000px;
-            height: 100px;
-            margin: 0 auto;
-            padding: 10px 0;
-        }
-
-        .gnbBox .logo {
-            position: absolute;
-            top: 14px;
-            left: 0;
-            width: 180px;
-            z-index: 10;
-        }
-
-        .gnbBox .logo a {
-            display: block;
-        }
-
-        .gnbBox .log img {
-            width: 180px;
-            vertical-align: middle;
-        }
-
-
-        #gnbLogin {
-            position: absolute;
-            right: 0px;
-            z-index: 5;
-        }
-
-        #gnbLogin a {
-            color: gray;
-        }
-
-        #gnbLogin > ul > li {
-            float: left;
-            font-size: 11px;
-            padding: 2px, 5px, 5px;
-        }
-
-        #gnbUi {
-            width: 100%;
-        }
-
+       
     </style>
 </head>
 <body>
 
-    <!-- <div class="dropdown">
-        <button class="dropbtn">Dropdown</button>
-        <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-        </div>
-    </div> -->
     <div id="header">
 
         <div class="header">
@@ -225,7 +64,7 @@
             </div>
             <div class="menuBg"></div>
         </div>
-
+        ::after
     </div>
 
 </body>
