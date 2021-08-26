@@ -134,6 +134,12 @@
     width:100%;
 }
 
+#header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 #gnbLogin {
     position: absolute;
     right: 0px;
