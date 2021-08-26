@@ -15,6 +15,10 @@ body, div {
     margin: 0px;
 }
 
+div {
+    display: block;
+}
+
 h1 {
     display: block;
     font-size: 2em;
