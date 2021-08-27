@@ -10,12 +10,36 @@ a:link {
     color: #222222;
 }
 
+body {
+    font-family: NanumBarunGothic, Dotum, '돋음', DotumChe;
+    font-size: 12px;
+    color: #333;
+    line-height: 1.5em;
+}
+
 body, div {
     padding: 0px;
     margin: 0px;
 }
 
+button {
+    appearance: auto;
+    -webkit-writing-mode: horizontal-tb;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    align-items: flex-start;
+    font: 400 13.3333px Arial;
+}
+
 div {
+    display: block;
+}
+
+form {
     display: block;
 }
 
@@ -29,8 +53,21 @@ h1 {
     font-weight: bold;
 }
 
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: NanumBarunGothicLight;
+}
+
+label {
+    cursor: default;
 }
 
 li {
@@ -40,6 +77,61 @@ li {
 
 img {
     border: 0px;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    font: 400 13.333px Arial;    
+}
+
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    border: initial;
+}
+
+input[type="password" i] {
+    -webkit-text-security: disc;
+}
+
+table {
+    display: table;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
 }
 
 ul {
@@ -60,3 +152,31 @@ ul, ul {
 ul, ol {
     list-style-type: none;
 }
+
+#modalBackground {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    -webkit-opacity: .6;
+    z-index: 1000;
+}
+
+#modalContent {
+    display: none;
+    left: 50%;
+    margin: 0 0 0 -100px;
+    position: fixed;
+    top: 38%;
+    height: 50px;
+    width: 200px;
+    z-index: 9999;
+}
+
+#warp {
+    min-width: 980px;
+}
+
