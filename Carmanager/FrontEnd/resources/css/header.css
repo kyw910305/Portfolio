@@ -5,6 +5,12 @@
     border-bottom: #dbdbdb;
 }
 
+.header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .gnbBox {
     position: relative;
     width: 980px;
