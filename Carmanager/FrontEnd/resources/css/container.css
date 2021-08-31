@@ -29,12 +29,27 @@
     color: #fff;
 }
 
+.btn.modify, .btn.logout {
+    width: 88px;
+    height: 28px;
+    background: #4959ec;
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+
 .bottomBanner {
     width: 980px;
     height: 118px;
     background-color: #fff;
     margin-top: 20px;
     margin-bottom: 40px;
+}
+
+.login {
+    vertical-align: top;
+    width: 275px;
 }
 
 .loginCertifyList {
@@ -103,6 +118,50 @@
     border-spacing: 0;
 }
 
+.myCarStateBox {
+    line-height: 20px;
+    height: 61px;
+    border-top: 1px solid #dbdbdb;
+    padding-top: 5px;
+    overflow: hidden;
+}
+
+.myCarStateBox .myCarStateInfo dd {
+    width: 39px;
+    color: #d61010;
+    font-weight: bold;
+    text-align: right;
+}
+
+.myCarStateBox .myCarStateInfo dd a {
+    width: 45px;
+    color: #ff893a;
+    font-weight: bold;
+    text-align: right;
+}
+
+.myCarStateBox .myCarStateInfo dt {
+    width: 77px;
+    letter-spacing: -1px;
+}
+
+.myCarStateBox .myCarStateInfo dd, .myCarStateBox .myCarStateInfo dt {
+    display: inline-block;
+}
+
+
+.myCarStateBox.myCarStateInfo.left {
+    float: left;
+    width: 129px;
+    height: 60px;
+    border-right: 1px solid #dbdbdb;
+}
+
+.myCarStateBox.myCarStateInfo.right {
+    float: right;
+    width: 120px;
+}
+
 .swipeContainer {
     margin-left: auto;
     margin-right: auto;
@@ -153,6 +212,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;;
 }
 
+.ucImgBorder {
+    margin: 5px;
+    border: 1px solid #d6d6d6;
+    vertical-align: top;
+}
+
 .ucInputBox {
     border: solid 1px #dbdbdb;
     font-size: 11px;
@@ -197,6 +262,11 @@
     margin: 0 auto 5px;
 }
 
+#myLoginForm {
+    width: 275px;
+    height: 260px;
+}
+
 #uiContainer {
     margin-top: 5px;
     position: relative;
@@ -236,4 +306,39 @@
     padding: 2px 5px;
     border-bottom: 1px dashed #d9d8d8;
     color: #555;
+}
+
+#uiLogout {
+    border: 1px solid #dbdbdb;
+    padding: 4px;
+    background-color: #eff4ff;
+    font-size: 12px;
+    height: 162px;
+}
+
+#uiLogout span {
+    font-weight: 700;
+    color: #aaaaaa;
+}
+
+#uiLogout table {
+    width: 100%;
+    border-collapse: separate;
+}
+
+#uiLogout td {
+    vertical-align: top;
+    color: #515254;
+}
+
+#uiLogout ul {
+    width: 183px;
+}
+
+#uiLogout ul li {
+    padding: 1px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
