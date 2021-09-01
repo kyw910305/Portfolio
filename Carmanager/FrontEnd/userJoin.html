@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>중고차 카매니저</title>
+
+    <!-- JQuery -->
+    <script src="resources/common/jquery-3.6.0.min.js"></script>
+    <script src="resources/common/jquery-ui.js"></script>
+    <!-- JQueryUI -->
+    <link rel="stylesheet" href="resources/common/jquery-ui.js">
+    <link rel="stylesheet" href="resources/css/jquery-ui.css">
+    <link rel="stylesheet" href="resources/css/jquery-ui.theme.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="resources/css/common.css">
+    <link rel="stylesheet" href="resources/css/header.css">
+    <link rel="stylesheet" href="resources/css/container.css">
+    <link rel="stylesheet" href="resources/css/footer.css">
+
+    <!-- JS -->
+    <script src="resources/js/header.js"></script>
+    <style>
+       
+    </style>
+
+</head>
+<body>
+    <div id="modalBackground"></div>
+    <div id="modalContent">
+        <img style="width: 100%;" src="resources/img/loading.gif">
+    </div>
+    <div id="modal"></div>
+    <div id="wrap"></div>
+    <header>
+        <div class="area gnb">
+            <div class="areaBox">
+                <div id="uiSmallLogo">
+                    <a href="/">
+                        <img src="resources/img/logo_sml.png">
+                    </a>
+                </div>
+                <div id="gnbLogin">
+                    <ul>
+                        <li>
+                            <a href="">로그인</a>
+                        </li>
+                        <li>
+                            <a href="">즐겨찾기 추가</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container">
+        <form id="aspForm" action method="post">
+            <div style="text-align: left; padding-bottom: 20px;">
+                <h2 style="margin-bottom: 10px">
+                    유료딜러 가입
+                </h2>
+                <span class="ucMsg01 ucSmall" style="padding-left: 10px;">
+                    카매니저 회원가입을 월하시는 유료딜러는 가입 신청서를 작성하세요.
+                </span>
+            </div>
+            <div class="ucContents" style="padding-top: 10px; padding-bottom: 0px;">
+                <!-- request join -->
+                <h3 style="padding-bottom: 5px;">가입 신청서</h3>
+                <div style="padding: 20px">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <h4 style="padding-bottom: 5px;">
+                                        소속 상사 정보 입력
+                                        <span class="ucFloatRight ucSmall2">(* 표시는 필수 입력 사항입니다.)</span>
+                                    </h4>
+                                    <div style="margin: 0 auto; margin-bottom: 20px;">
+                                        <table class="ucBoard">
+                                            <tbody>
+                                                <tr>
+                                                    <th>
+                                                        <span>*</span>
+                                                        시도
+                                                    </th>
+                                                    <td>
+                                                        <select name="cbxJoinSido" id="ucSelect ucSido" style="width: 200px; display: none;" sb="78306900">
+                                                            <option value selected>선택</option>
+                                                            <option value="101">서울</option>
+                                                            <option value="102">경가</option>
+                                                            <option value="103">인천</option>
+                                                            <option value="104">강원</option>
+                                                            <option value="105">충남</option>
+                                                            <option value="106">대전</option>
+                                                            <option value="107">충북</option>
+                                                            <option value="108">부산</option>
+                                                            <option value="109">울산</option>
+                                                            <option value="110">대구</option>
+                                                            <option value="111">경북</option>
+                                                            <option value="112">경남</option>
+                                                            <option value="113">전남</option>
+                                                            <option value="114">광주</option>
+                                                            <option value="115">전북</option>
+                                                            <option value="116">제주</option>
+                                                        </select>
+                                                    </td>
+                                                    <th></th>
+                                                    <td></td>
+                                                </tr>
+                                                <tr></tr>
+                                                <tr></tr>
+                                                <tr></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

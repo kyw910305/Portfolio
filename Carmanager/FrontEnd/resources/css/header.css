@@ -11,6 +11,18 @@
     clear: both;
 }
 
+.gnb {
+    height: 35px;
+    line-height: 35px;
+    background-color: #f3f3f3;
+    color: #868686;
+}
+
+.gnb a, gnb a:hover, .gnb a:visited {
+    text-decoration: none;
+    color: #868686;
+}
+
 .gnbBox {
     position: relative;
     width: 980px;
@@ -160,4 +172,9 @@
     float: left;
     font-size: 11px;
     padding: 2px 5px 5px;
+}
+
+#uiSmallLogo {
+    position: absolute;
+    margin-top: 0px;
 }

@@ -94,6 +94,10 @@ input[type="password" i] {
     -webkit-text-security: disc;
 }
 
+th {
+    font-family: NanumBarunGothicLight;
+}
+
 ul, ul {
     margin-block-start: 0px;
     margin-block-end: 0px;
