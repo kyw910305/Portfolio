@@ -113,9 +113,24 @@
     width: 690px;
 }
 
-.mainTop > table {
-    width: 100%;
-    border-spacing: 0;
+.middleBanner {
+    margin-top: 10px;
+}
+
+.middleBanner .bannerBox {
+    float: left;
+}
+
+.middleBanner .bannerBox img {
+    width: 320px;
+    height: 180px;
+}
+
+.middleBanner .bannerBox li {
+    float: left;
+    width: 315px;
+    height: 180px;
+    margin: 0 10px 10px 0;
 }
 
 .myCarStateBox {
@@ -150,14 +165,14 @@
 }
 
 
-.myCarStateBox.myCarStateInfo.left {
+.myCarStateBox .myCarStateInfo.left {
     float: left;
     width: 129px;
     height: 60px;
     border-right: 1px solid #dbdbdb;
 }
 
-.myCarStateBox.myCarStateInfo.right {
+.myCarStateBox .myCarStateInfo.right {
     float: right;
     width: 120px;
 }
